@@ -17,4 +17,19 @@
   <% }) %>
   </div>
 
+  <form action="/articles/:id" method="POST">
+    <div>
+      <label for="name">full name</label>
+      <input type="text" class="form-control" id="name" name="name" required>
+    </div>
+    <div>
+      <label for="content">comment</label>
+      <input type="text" class="form-control" id="content" name="content" required>
+    </div>
+    <div>
+      <input type="submit" for="submit"></input>
+
+    </div>
+
+  </form>
 <a href="/">&larr; Back Home</a>
